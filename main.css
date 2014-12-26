@@ -66,6 +66,10 @@
     margin-left: 10px;
 }
 
+.selected {
+    background-color: rgb(230,230,230);
+}
+
 .left-item {
     width: 180px;
     height: 75px;
