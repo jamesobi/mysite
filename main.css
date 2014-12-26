@@ -4,10 +4,11 @@
     background-size: 100%;
 }
 
+
 .main-container {
     height: 1000px;
-    width: 1000px;
-    background-color: rgb(255,255,255);
+    width: 100%;
+    background-color: rgb(235,255,255);
     position: relative;
 }
 
@@ -15,9 +16,9 @@
 
 .title {
     text-align: center;
-    height: 50px;
-    width: 280px;
-    font-size: 40px;
+    height: 64px;
+    width: 430px;
+    font-size: 60px;
     margin: auto auto 5px auto;
     color: rgb(80, 200, 250);
     background-color: rgb(190, 2501, 253);
@@ -39,10 +40,17 @@
     text-align: center;
     line-height: 45px;
     vertical-align: middle;
+    font-size: 35px;
+    font-weight: bold;
     border: thin solid rgb(0,0,0);
     border-radius: 10px;
     float: left;
     background-color: rgb(150,150,150);
+}
+
+.selected {
+    background-color: rgb(230,230,230);
+    border-width: thick;
 }
 
 .left-column {
@@ -66,12 +74,34 @@
     margin-left: 10px;
 }
 
-.selected {
-    background-color: rgb(230,230,230);
-}
-
 .left-item {
     width: 180px;
     height: 75px;
     margin: auto auto 10px auto;
+    border: thin solid rgb(0,0,0);
+    border-radius: 15px;
+    margin-top: 10px;
+    line-height: 65px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 30px;
 }
+
+.right-item {
+    width: 740px;
+    height: 200px;
+    margin: auto auto 10px auto;
+    border: thin solid rgb(0,0,0);
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.right-item h1 {
+    text-align: center;
+}
+
+.right-item p {
+    color: rgb(0,0,204);
+}
+
